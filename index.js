@@ -12,7 +12,7 @@ function johnLennonFacts(facts){
   for(let i=0;i<facts.length;i++){
     console.log(facts[i].concat('!!!'))
 
-    facts[i].concat('!!!')
+    return facts[i].concat('!!!')
   }
-  return facts
+  // return facts
 }
